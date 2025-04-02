@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the world of AI, biochemistry, and more with our interactive chatbot!">
+    <meta name="keywords" content="AI, biochemistry, chatbot, science, technology">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <title>My Website with AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 🎨 Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 🏠 Homepage Section -->
+    <header>
+        <img src="your-image-path.jpg" alt="Description of the image" width="300"> <!-- Add your image here -->
+        <h1>Welcome to My Website!</h1>
+        <p>Explore the world of AI, Biochemistry, and much more.</p>
+    </header>
+
+    <!-- 📸 Image Gallery Section -->
+    <section class="gallery">
+        <h2>Image Gallery</h2>
+        <!-- Gallery Images -->
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="Gallery Image 1" width="200" height="150">
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Gallery Image 2" width="200" height="150">
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Gallery Image 3" width="200" height="150">
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Gallery Image 4" width="200" height="150">
+        </div>
+        <!-- Add more images as needed -->
+    </section>
+
+    <!-- 📨 Contact Us Button -->
+    <button id="openModal">Contact Us</button>
+
+    <!-- The Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 🤖 AI Chatbot -->
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <!-- 🔗 Footer -->
+    <footer>
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+        <p>
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a> |
+            <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
